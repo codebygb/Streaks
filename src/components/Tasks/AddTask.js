@@ -14,6 +14,7 @@ export default function AddTask({ addTask }) {
     setTask("");
     setDesc("");
   };
+
   return (
     <Paper
       component="div"

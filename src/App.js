@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import ListTasks from "./components/Lists/ListTasks";
 import AddTask from "./components/Tasks/AddTask";
 import Tasks from "./components/Tasks/Tasks";
 
@@ -18,6 +19,7 @@ function App() {
       <h1>Streaks</h1>
       <AddTask addTask={setTasks} />
       <Tasks tasks={tasks} />
+      <ListTasks />
     </div>
   );
 }
